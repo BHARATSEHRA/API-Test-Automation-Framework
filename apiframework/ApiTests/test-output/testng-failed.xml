@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.nagp.testcases.WunderListsTest">
+        <methods>
+          <include name="setUpRequest"/>
+          <include name="CreateItem"/>
+          <include name="setUpBeforeSuite"/>
+          <include name="setUpBeforeMethod"/>
+          <include name="getResult"/>
+          <include name="tearDownAfterSuite"/>
+          <include name="setupBeforeClass"/>
+          <include name="setupTest"/>
+          <include name="deleteEmployee"/>
+        </methods>
+      </class> <!-- com.nagp.testcases.WunderListsTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

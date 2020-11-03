@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="13635" started-at="2020-11-03T15:16:47Z" finished-at="2020-11-03T15:17:01Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="13635" started-at="2020-11-03T15:16:47Z" finished-at="2020-11-03T15:17:01Z">
+      <class name="com.store.testcases.PetStoreTest">
+        <test-method status="PASS" signature="setUpBeforeSuite()[pri:0, instance:com.store.testcases.PetStoreTest@6a2bcfcb]" name="setUpBeforeSuite" is-config="true" duration-ms="197" started-at="2020-11-03T15:16:47Z" finished-at="2020-11-03T15:16:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeSuite -->
+        <test-method status="PASS" signature="setupBeforeClass()[pri:0, instance:com.store.testcases.PetStoreTest@6a2bcfcb]" name="setupBeforeClass" is-config="true" duration-ms="386" started-at="2020-11-03T15:16:47Z" finished-at="2020-11-03T15:16:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBeforeClass -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:com.store.testcases.PetStoreTest@6a2bcfcb]" name="setupTest" is-config="true" duration-ms="1" started-at="2020-11-03T15:16:47Z" finished-at="2020-11-03T15:16:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="setUpBeforeMethod(java.lang.reflect.Method)[pri:0, instance:com.store.testcases.PetStoreTest@6a2bcfcb]" name="setUpBeforeMethod" is-config="true" duration-ms="7" started-at="2020-11-03T15:16:47Z" finished-at="2020-11-03T15:16:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.store.testcases.PetStoreTest.getAllPetsList() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeMethod -->
+        <test-method status="PASS" signature="setUpRequest()[pri:0, instance:com.store.testcases.PetStoreTest@6a2bcfcb]" name="setUpRequest" is-config="true" duration-ms="2" started-at="2020-11-03T15:16:47Z" finished-at="2020-11-03T15:16:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpRequest -->
+        <test-method status="PASS" signature="getAllPetsList()[pri:1, instance:com.store.testcases.PetStoreTest@6a2bcfcb]" name="getAllPetsList" duration-ms="3655" started-at="2020-11-03T15:16:47Z" description="Lists api-&gt; Get All Pet lists" finished-at="2020-11-03T15:16:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllPetsList -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.store.testcases.PetStoreTest@6a2bcfcb]" name="getResult" is-config="true" duration-ms="4" started-at="2020-11-03T15:16:51Z" finished-at="2020-11-03T15:16:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getAllPetsList status=SUCCESS method=PetStoreTest.getAllPetsList()[pri:1, instance:com.store.testcases.PetStoreTest@6a2bcfcb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="setUpRequest()[pri:0, instance:com.store.testcases.PetStoreTest@6a2bcfcb]" name="setUpRequest" is-config="true" duration-ms="1" started-at="2020-11-03T15:16:52Z" finished-at="2020-11-03T15:16:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpRequest -->
+        <test-method status="PASS" signature="setUpBeforeMethod(java.lang.reflect.Method)[pri:0, instance:com.store.testcases.PetStoreTest@6a2bcfcb]" name="setUpBeforeMethod" is-config="true" duration-ms="0" started-at="2020-11-03T15:16:52Z" finished-at="2020-11-03T15:16:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.store.testcases.PetStoreTest.addNewPet(java.util.List,java.util.List) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeMethod -->
+        <test-method status="PASS" signature="addNewPet(java.util.List, java.util.List)[pri:2, instance:com.store.testcases.PetStoreTest@6a2bcfcb]" name="addNewPet" duration-ms="1583" started-at="2020-11-03T15:16:52Z" description="Add new pet to the store" data-provider="Excel Data Provider" finished-at="2020-11-03T15:16:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[id, status, Name, Category_id, Category_Name, Tag_id, Tag_Name, Message]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[5096, available, Cattie, 5, cat_name, 3, tag_name, Pet not found]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewPet -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.store.testcases.PetStoreTest@6a2bcfcb]" name="getResult" is-config="true" duration-ms="0" started-at="2020-11-03T15:16:53Z" finished-at="2020-11-03T15:16:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addNewPet status=SUCCESS method=PetStoreTest.addNewPet(java.util.List, java.util.List)[pri:2, instance:com.store.testcases.PetStoreTest@6a2bcfcb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="setUpBeforeMethod(java.lang.reflect.Method)[pri:0, instance:com.store.testcases.PetStoreTest@6a2bcfcb]" name="setUpBeforeMethod" is-config="true" duration-ms="1" started-at="2020-11-03T15:16:53Z" finished-at="2020-11-03T15:16:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.store.testcases.PetStoreTest.updatePetStatus() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeMethod -->
+        <test-method status="PASS" signature="updatePetStatus()[pri:3, instance:com.store.testcases.PetStoreTest@6a2bcfcb]" name="updatePetStatus" duration-ms="4265" started-at="2020-11-03T15:16:53Z" description="Update Pet Status by updating the value as Sold" depends-on-methods="com.store.testcases.PetStoreTest.addNewPet" finished-at="2020-11-03T15:16:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updatePetStatus -->
+        <test-method status="PASS" signature="setUpRequest()[pri:0, instance:com.store.testcases.PetStoreTest@6a2bcfcb]" name="setUpRequest" is-config="true" duration-ms="0" started-at="2020-11-03T15:16:53Z" finished-at="2020-11-03T15:16:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpRequest -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.store.testcases.PetStoreTest@6a2bcfcb]" name="getResult" is-config="true" duration-ms="3" started-at="2020-11-03T15:16:57Z" finished-at="2020-11-03T15:16:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=updatePetStatus status=SUCCESS method=PetStoreTest.updatePetStatus()[pri:3, instance:com.store.testcases.PetStoreTest@6a2bcfcb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="setUpBeforeMethod(java.lang.reflect.Method)[pri:0, instance:com.store.testcases.PetStoreTest@6a2bcfcb]" name="setUpBeforeMethod" is-config="true" duration-ms="1" started-at="2020-11-03T15:16:57Z" finished-at="2020-11-03T15:16:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.store.testcases.PetStoreTest.deletePetFromStore()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeMethod -->
+        <test-method status="PASS" signature="setUpRequest()[pri:0, instance:com.store.testcases.PetStoreTest@6a2bcfcb]" name="setUpRequest" is-config="true" duration-ms="1" started-at="2020-11-03T15:16:57Z" finished-at="2020-11-03T15:16:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpRequest -->
+        <test-method status="PASS" signature="deletePetFromStore()[pri:4, instance:com.store.testcases.PetStoreTest@6a2bcfcb]" name="deletePetFromStore" duration-ms="3178" started-at="2020-11-03T15:16:57Z" description="Delete sold Pet from the store" depends-on-methods="com.store.testcases.PetStoreTest.addNewPet" finished-at="2020-11-03T15:17:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletePetFromStore -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.store.testcases.PetStoreTest@6a2bcfcb]" name="getResult" is-config="true" duration-ms="1" started-at="2020-11-03T15:17:01Z" finished-at="2020-11-03T15:17:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=deletePetFromStore status=SUCCESS method=PetStoreTest.deletePetFromStore()[pri:4, instance:com.store.testcases.PetStoreTest@6a2bcfcb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="tearDownAfterSuite()[pri:0, instance:com.store.testcases.PetStoreTest@6a2bcfcb]" name="tearDownAfterSuite" is-config="true" duration-ms="293" started-at="2020-11-03T15:17:01Z" finished-at="2020-11-03T15:17:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterSuite -->
+      </class> <!-- com.store.testcases.PetStoreTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

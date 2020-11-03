@@ -1,0 +1,8 @@
+com\store\pojo\request\Category.class
+com\store\pojo\response\Tags.class
+com\store\pojo\response\Category.class
+com\store\constants\APIStatusCodes.class
+com\store\pojo\response\GetListsDTO.class
+com\store\constants\Resources.class
+com\store\pojo\request\Tags.class
+com\store\pojo\request\PostListsDTO.class

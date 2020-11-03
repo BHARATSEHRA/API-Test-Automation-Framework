@@ -1,0 +1,12 @@
+com\store\contants\ConfigKeys.class
+com\store\reader\Config.class
+com\store\restClient\RestClientParameters.class
+com\store\reader\ExcelReader.class
+com\store\restClient\RestClientWrapper.class
+com\store\customException\CustomExceptions.class
+com\store\reporterLogger\ReportLogger.class
+com\store\reader\PropertyReader.class
+com\store\common\util\Utilities.class
+com\store\restClient\RestClientHeader.class
+com\store\restClient\RestServerResponse.class
+com\store\common\util\JsonMapper.class
